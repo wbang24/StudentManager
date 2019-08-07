@@ -104,7 +104,6 @@ void Student::GetData(){
 	cin >> french;
 	//call calculate function
 	Calculate();
-	ShowData();
 }
 
 
@@ -125,7 +124,7 @@ int main()
 {
 	Student studentA;
 	studentA.GetData();
-
+	studentA.ShowData();
 	return 0;
 }
 
